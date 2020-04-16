@@ -14,5 +14,9 @@ const app = new Vue({
   },
   mounted: function() {
     console.debug('mounted');
+    const myapp = this.$children[0];
+    myapp.$on('say', (text:string) => {
+      alert(text);
+    });
   },
 });
