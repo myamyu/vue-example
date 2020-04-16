@@ -14,9 +14,12 @@ import SayButtons from '@/components/SayButtons.vue';
   },
 })
 class MyApp extends Vue {
+  @Inject() myName!:string;
+  @Inject() myAge!:number;
+
   @Emit()
   say(message:string):string {
-    return `おいら曰く「${message}」`;
+    return `${this.myName}(${this.myAge})曰く「${message}」`;
   }
 }
 export default MyApp;

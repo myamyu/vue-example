@@ -9,6 +9,10 @@ const app = new Vue({
       mydata: false,
     };
   },
+  provide: {
+    myName: 'おいら',
+    myAge: 19,
+  },
   components: {
     MyApp,
   },
