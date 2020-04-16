@@ -1,0 +1,45 @@
+{
+  "name": "vue-example",
+  "version": "1.0.0",
+  "description": "vueを使ってみる",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myamyu/vue-example.git"
+  },
+  "author": "myamyu",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/myamyu/vue-example/issues"
+  },
+  "homepage": "https://github.com/myamyu/vue-example#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-loader": "^3.0.0",
+    "postcss-nesting": "^7.0.1",
+    "request-promise": "^4.2.5",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "url-loader": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-cli-plugin-storybook": "^0.6.1",
+    "vue-loader": "^15.7.1",
+    "vue-property-decorator": "^8.3.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
